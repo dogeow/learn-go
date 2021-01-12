@@ -1,7 +1,18 @@
 package models
 
+import (
+	"time"
+)
+
+// gorm.Model 的定义
+type Model struct {
+	ID        uint64 `gorm:"primaryKey"`
+	CreatedAt time.Time
+	UpdatedAt time.Time
+}
+
 type User struct {
-	ID       uint64
+	Model
 	Name     string
 	Email    string
 	Password string
