@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/likunyan/learn-go/routers"
+	"github.com/dogeow/learn-go/routers"
 )
 
 func main() {
