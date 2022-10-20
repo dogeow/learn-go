@@ -23,4 +23,9 @@ func Arrays() {
 	fmt.Println("2d: ", twoD)
 	fmt.Println("len:", len(twoD))
 
+	for index, value := range b {
+		println(value)
+		println(index)
+	}
+
 }

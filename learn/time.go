@@ -1,7 +1,9 @@
 package learn
 
-import "fmt"
-import "time"
+import (
+	"fmt"
+	"time"
+)
 
 func Time() {
 	fmt.Println(time.Now().Hour())
