@@ -2,7 +2,7 @@ package learn
 
 import (
 	"fmt"
-	"github.com/likunyan/learn-go/api/models"
+	"github.com/dogeow/learn-go/api/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"os"

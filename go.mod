@@ -1,4 +1,4 @@
-module github.com/likunyan/learn-go
+module github.com/dogeow/learn-go
 
 require (
 	github.com/appleboy/gin-jwt/v2 v2.6.4

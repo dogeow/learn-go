@@ -2,9 +2,9 @@ package middleware
 
 import (
 	jwt "github.com/appleboy/gin-jwt/v2"
+	"github.com/dogeow/learn-go/api/models"
 	"github.com/gin-gonic/gin"
 	_ "github.com/joho/godotenv/autoload"
-	"github.com/likunyan/learn-go/api/models"
 	"log"
 	"os"
 	"time"
