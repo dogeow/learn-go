@@ -1,11 +1,13 @@
 package main
 
 import (
-	"github.com/dogeow/learn-go/routers"
+	"fmt"
 )
 
 func main() {
-	router := routers.InitRouter()
-
-	router.Run(":3333")
+	fmt.Println(Hello("world"))
+	//err := errors.New("emit macho dwarf: elf header corrupted")
+	//if err != nil {
+	//	fmt.Print(err)
+	//}
 }
